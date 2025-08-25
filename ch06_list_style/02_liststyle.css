@@ -1,0 +1,26 @@
+ul {
+  /* list-style: disc; default 값 
+      가능한 속성 값 disc / circle / square / default/ "-" (사용자 정의 기호)
+  */
+  list-style: circle;
+}
+
+ul > li:first-child {
+  list-style: square;
+}
+
+ol {
+  /* 
+    1, 2, 3 : decimal
+    a, b, c : lower-alpha
+    A, B, C : upper-alpha
+    i, ii, iii : lower-roman
+    I, II, III : upper-roman
+    알파, 베타, 감마 : lower-greek
+  */
+  list-style: lower-greek;
+}
+
+ol > li:last-child {  /* 이렇게 작성하는게 아니고 가상클래스 및 선택자 복습 개념으로 남겨놓겠습니다. */
+  list-style: lower-alpha;
+}

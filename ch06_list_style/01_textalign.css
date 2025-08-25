@@ -1,0 +1,13 @@
+div {
+  /* left / right / center / justify */
+  text-align: justify;
+  letter-spacing: 0em;
+  word-spacing: 0.3em;
+  line-height: 2em;
+  text-indent: 2em;
+}
+
+div > h1 {
+  text-align: center;
+}
+
